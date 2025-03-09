@@ -9,7 +9,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.function.Predicate;
 
-public class SupermarketImpl implements Supermarket {
+public class SupermarketImpl implements Supermarket  {
     private Collection<Product> products = new ArrayList<>();
 
     public SupermarketImpl(Collection<Product> products) {
